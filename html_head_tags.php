@@ -11,7 +11,7 @@ class HTML_Head_Tags {
 	// Data
 	var $css;
 	var $js;
-	var $tite;
+	var $title;
 	
 	// Flags
 	var $f_debug;
@@ -115,7 +115,7 @@ class HTML_Head_Tags {
 	}
 
 	/*
-	 * function output_cjs()
+	 * function output_js()
 	 */	
 	function output_js() {
 		if($this->f_debug) { $this->output_comment("js begin"); }
